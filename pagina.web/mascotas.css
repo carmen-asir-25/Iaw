@@ -1,0 +1,37 @@
+/* Fuente general */
+body, h1 {
+  font-family: "Poppin", Arial, sans-serif;
+}
+
+/* Estilo del título */
+h1 {
+  letter-spacing: 6px;
+  color: aqua;
+}
+
+h1 .fa-paw {
+  color: darkorange;
+  margin-left: 10px;
+  font-size: 1.2em;
+}
+
+/* Header */
+.header {
+  padding: 128px 16px;
+}
+
+/* Galería: solo se añaden detalles visuales, sin cambiar tamaño ni columnas */
+.gallery img {
+  margin-bottom: 12px;        /* espacio entre imágenes */
+  border-radius: 8px;         /* esquinas redondeadas */
+  transition: transform 0.3s ease; /* efecto al pasar el mouse */
+}
+
+.gallery img:hover {
+  transform: scale(1.05);
+}
+.corazon {
+  color: red;          /* color del corazón */
+  font-size: 1.2em;    /* opcional: un poco más grande */
+}
+

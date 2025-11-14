@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Añadir Libro</title>
+</head>
+<body>
+    <h1>Añadir Nuevo Libro</h1>
+    <form action="crealibro.php" method="POST">
+        
+        <label for="isbn">ISBN:</label><br>
+        <input type="text" id="isbn" name="isbn" required><br><br>
+        
+        <label for="titulo">Título:</label><br>
+        <input type="text" id="titulo" name="titulo" required><br><br>
+        
+        <label for="autor">Autor:</label><br>
+        <input type="text" id="autor" name="autor" required><br><br>
+        
+        <label for="editorial">Editorial (Opcional):</label><br>
+        <input type="text" id="editorial" name="editorial"><br><br>
+        
+        <label for="publicacion">Año de Publicación:</label><br>
+        <input type="number" id="publicacion" name="publicacion" required><br><br>
+
+        <input type="submit" value="Crear Libro">
+    </form>
+</body>
+</html>
